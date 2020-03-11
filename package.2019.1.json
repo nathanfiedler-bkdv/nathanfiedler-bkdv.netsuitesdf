@@ -74,7 +74,7 @@
         "mac": "cmd+; a"
       },
       {
-        "command": "extension.resetDeploy",
+        "command": "extension.createResetDeploy",
         "key": "ctrl+; shift+-",
         "mac": "cmd+; shift+-"
       },
@@ -186,8 +186,8 @@
         "category": "SDF"
       },
       {
-        "command": "extension.resetDeploy",
-        "title": "Reset deploy.xml",
+        "command": "extension.createResetDeploy",
+        "title": "Create/Reset deploy.xml",
         "category": "SDF"
       },
       {
@@ -328,7 +328,7 @@
       ],
       "explorer/context": [
         {
-          "command": "extension.resetDeploy",
+          "command": "extension.createResetDeploy",
           "group": "z_commands@1"
         },
         {
