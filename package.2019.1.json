@@ -191,6 +191,11 @@
         "category": "SDF"
       },
       {
+        "command": "extension.backupRestoreDeploy",
+        "title": "Backup/Restore deploy.xml",
+        "category": "SDF"
+      },
+      {
         "command": "extension.addFileToDeploy",
         "title": "Add current/selected file to deploy.xml",
         "category": "SDF"
@@ -330,6 +335,11 @@
         {
           "command": "extension.createResetDeploy",
           "group": "z_commands@1"
+        },
+        {
+          "when": "resourceLangId == xml && resourceFilename =~ /(.+\\.)?deploy.xml/",
+          "command": "extension.backupRestoreDeploy",
+          "group": "z_commands@2"
         },
         {
           "command": "extension.addFileToDeploy",
