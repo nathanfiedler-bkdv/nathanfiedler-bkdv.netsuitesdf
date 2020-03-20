@@ -56,6 +56,11 @@
           "type": "boolean",
           "default": true,
           "description": "When adding a TypeScript file to deploy.xml, its matching compiled JavaScript file will be added in its place."
+        },
+        "netsuitesdf.onBackupAutoCreateNewDeployXML": {
+          "type": "boolean",
+          "default": true,
+          "description": "When performing a backup of deploy.xml, automatically create a new, empty deploy.xml."
         }
       }
     },
